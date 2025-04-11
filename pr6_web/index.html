@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Pr6_web</title>
+</head>
+
+<body>
+
+    <div class="dropdown">
+        <button class="dropbtn">Меню ▼</button>
+        <div class="dropdown-content" id="dropdownMenu">
+            <a href="#">Пункт 1</a>
+            <a href="#">Пункт 2</a>
+            <a href="#">Пункт 3</a>
+        </div>
+    </div>
+
+    <div id="colorBox"></div>
+
+
+    <div class="text-container" id="textBlock">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros vel enim fringilla tristique.
+        Morbi feugiat nulla sed turpis vehicula, id faucibus lorem lacinia. Integer congue, libero nec viverra
+        imperdiet, justo diam tincidunt erat, nec fermentum ipsum leo vel nisi. Aliquam erat volutpat. Aenean
+        vel malesuada lorem. Curabitur laoreet, justo a facilisis tempus, felis elit hendrerit turpis, nec
+        feugiat tortor nisi nec elit.
+    </div>
+
+    <button class="toggle-btn" id="toggleBtn">Показати більше</button>
+
+
+
+    <button class="counter-btn" id="counterBtn">Натисни мене</button>
+    <div class="count-display" id="countDisplay">Натискань: 0</div>
+
+
+
+    <button class="date-btn" onclick="showDate()">Показати дату</button>
+    <div class="date-display" id="dateOutput"></div>
+
+
+
+    <h2>Обчислення суми двох чисел</h2>
+
+    <input type="number" id="num1" placeholder="Перше число">
+    <input type="number" id="num2" placeholder="Друге число">
+    <button onclick="calculateSum()">Обчислити суму</button>
+
+    <p>Результат: <span id="result">---</span></p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

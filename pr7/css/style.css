@@ -1,0 +1,49 @@
+body {
+    background-color: #f7f9fc;
+    margin: 20px;
+    color: #333;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+div,
+ul {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+p {
+    margin: 8px 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#doubled-numbers {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+#oldest-book {
+    font-weight: bold;
+    color: #c0392b;
+}
+
+#student-info p:nth-child(5) {
+    font-weight: bold;
+    color: #2980b9;
+}
